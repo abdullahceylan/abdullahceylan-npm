@@ -1,2 +1,7 @@
-# abdullahceylan-npm
-My npm card
+To avoid someone else taking it first :-)
+
+# Usage
+
+```
+npx abdullahceylan
+```
