@@ -30,7 +30,7 @@
   "files": [
     "bin/card.js",
     "bin/card.plain.js",
-    "bin/card.color.js",
+    "bin/card.color.js"
   ],
   "devDependencies": {
     "import-jsx": "^1.3.0",
