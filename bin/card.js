@@ -6,7 +6,7 @@ const meow = require('meow');
 const importJsx = require('import-jsx');
 const { h, render } = require('ink');
 
-const ui = importJsx('../build-ui');
+const ui = importJsx('./build-ui');
 
 const binDir = require.resolve('./card.js');
 const datFile = path.resolve(

@@ -2,9 +2,6 @@ const chalk = require('chalk');
 const fs = require('fs');
 const path = require('path');
 const boxen = require('boxen');
-const opn = require('opn');
-const { h, Text } = require('ink');
-const SelectInput = require('ink-select-input');
 
 const boxOptions = {
   padding: 1,
@@ -109,9 +106,9 @@ module.exports = {
   menuData: card(null, true)
 };
 
-const binDir = require.resolve('./bin/card.js');
-const colorFile = path.resolve(path.dirname(binDir), 'card.color');
-const plainFile = path.resolve(path.dirname(binDir), 'card.plain');
+const binDir = require.resolve('./card.js');
+const colorFile = require.resolve('./card.color');
+const plainFile = require.resolve('./card.plain');
 
 const writeCard = (file, data, callback) => {
   fs.writeFile(file, data, error => {
