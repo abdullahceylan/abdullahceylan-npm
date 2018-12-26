@@ -31,7 +31,6 @@
     "bin/card.js",
     "bin/card.plain.js",
     "bin/card.color.js",
-    "bin/output"
   ],
   "devDependencies": {
     "import-jsx": "^1.3.0",
