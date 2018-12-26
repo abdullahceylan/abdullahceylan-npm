@@ -1,6 +1,6 @@
 {
   "name": "abdullahceylan",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A personal card for Abdullah Musab Ceylan(@abdullahceylan)",
   "main": "/bin/card.js",
   "bin": {
